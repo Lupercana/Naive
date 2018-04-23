@@ -4,16 +4,99 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_before</sound>
+    <sound>sound\snd_after</sound>
+    <sound>sound\snd_exclaim</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sp_player_walk</sprite>
+    <sprite>sprites\sp_exclamation</sprite>
+    <sprite>sprites\sp_boy_walk_before</sprite>
+    <sprite>sprites\sp_boy_walk_after</sprite>
+    <sprite>sprites\sp_girl_walk_before</sprite>
+    <sprite>sprites\sp_monster1</sprite>
+    <sprite>sprites\sp_monster2</sprite>
+    <sprite>sprites\sp_monster3</sprite>
+    <sprite>sprites\sp_monster4</sprite>
+    <sprite>sprites\sp_monster5</sprite>
+    <sprite>sprites\sp_monster6</sprite>
+    <sprite>sprites\sp_monster7</sprite>
+    <sprite>sprites\sp_monster8</sprite>
+    <sprite>sprites\sp_monster9</sprite>
+    <sprite>sprites\sp_monster10</sprite>
+    <sprite>sprites\sp_monster11</sprite>
+    <sprite>sprites\sp_monster12</sprite>
+    <sprite>sprites\sp_monster13</sprite>
+    <sprite>sprites\sp_monster14</sprite>
+    <sprite>sprites\sp_monster15</sprite>
+    <sprite>sprites\sp_monster16</sprite>
+    <sprite>sprites\sp_monster17</sprite>
+    <sprite>sprites\sp_monster18</sprite>
+    <sprite>sprites\sp_monster19</sprite>
+    <sprite>sprites\sp_monster20</sprite>
+    <sprite>sprites\sp_monster21</sprite>
+    <sprite>sprites\sp_monster22</sprite>
+    <sprite>sprites\sp_monster23</sprite>
+    <sprite>sprites\sp_monster24</sprite>
+    <sprite>sprites\sp_monster25</sprite>
+    <sprite>sprites\sp_monster26</sprite>
+    <sprite>sprites\sp_monster27</sprite>
+    <sprite>sprites\sp_monster28</sprite>
+    <sprite>sprites\sp_monster29</sprite>
+    <sprite>sprites\sp_monster30</sprite>
+    <sprite>sprites\sp_monster31</sprite>
+    <sprite>sprites\sp_monster32</sprite>
+    <sprite>sprites\sp_monster33</sprite>
+    <sprite>sprites\sp_monster34</sprite>
+    <sprite>sprites\sp_monster35</sprite>
+    <sprite>sprites\sp_monster36</sprite>
+    <sprite>sprites\sp_monster37</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_before</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
+    <object>objects\obj_exclaim</object>
+    <object>objects\obj_boy</object>
+    <object>objects\obj_girl</object>
+    <object>objects\obj_monster1</object>
+    <object>objects\obj_monster_2</object>
+    <object>objects\obj_monster_3</object>
+    <object>objects\obj_monster_4</object>
+    <object>objects\obj_monster_5</object>
+    <object>objects\obj_monster_6</object>
+    <object>objects\obj_monster_7</object>
+    <object>objects\obj_monster_8</object>
+    <object>objects\obj_monster_9</object>
+    <object>objects\obj_monster_10</object>
+    <object>objects\obj_monster_11</object>
+    <object>objects\obj_monster_12</object>
+    <object>objects\obj_monster_13</object>
+    <object>objects\obj_monster_14</object>
+    <object>objects\obj_monster_15</object>
+    <object>objects\obj_monster_16</object>
+    <object>objects\obj_monster_17</object>
+    <object>objects\obj_monster_18</object>
+    <object>objects\obj_monster_19</object>
+    <object>objects\obj_monster_20</object>
+    <object>objects\obj_monster_21</object>
+    <object>objects\obj_monster_22</object>
+    <object>objects\obj_monster_23</object>
+    <object>objects\obj_monster_24</object>
+    <object>objects\obj_monster_25</object>
+    <object>objects\obj_monster_26</object>
+    <object>objects\obj_monster_27</object>
+    <object>objects\obj_monster_28</object>
+    <object>objects\obj_monster_29</object>
+    <object>objects\obj_monster_30</object>
+    <object>objects\obj_monster_31</object>
+    <object>objects\obj_monster_32</object>
+    <object>objects\obj_monster_33</object>
+    <object>objects\obj_monster_34</object>
+    <object>objects\obj_monster_35</object>
+    <object>objects\obj_monster_36</object>
+    <object>objects\obj_monster_37</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_before</room>
