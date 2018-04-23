@@ -3,15 +3,15 @@
   <caption></caption>
   <width>8100</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -31,7 +31,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_before" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="bg_after" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="obj_boy" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="512" vborder="384" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_boy" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="512" vborder="384" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -50,7 +50,46 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_text_after" x="432" y="272" name="inst_AE64A34B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster1" x="5520" y="192" name="inst_50D04368" locked="0" code="" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_2" x="5680" y="320" name="inst_E427F476" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_3" x="5904" y="16" name="inst_EA518B8C" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_4" x="5248" y="160" name="inst_A30B91BB" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_5" x="6128" y="368" name="inst_5BE08F75" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_6" x="3456" y="48" name="inst_7D496B56" locked="0" code="" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_7" x="2848" y="192" name="inst_879C013A" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_8" x="1376" y="400" name="inst_BB770D66" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_9" x="1680" y="288" name="inst_92654000" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_10" x="4592" y="400" name="inst_23CFB279" locked="0" code="" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_11" x="4944" y="512" name="inst_B7042F61" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_12" x="3984" y="288" name="inst_2827DE33" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_13" x="2208" y="368" name="inst_58D3D516" locked="0" code="" scaleX="0.150000005960464" scaleY="0.150000005960464" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_14" x="2672" y="272" name="inst_C514CA09" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_15" x="1248" y="304" name="inst_EE46A8C5" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_16" x="816" y="320" name="inst_CF6D5F90" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_17" x="2400" y="336" name="inst_72C2A97A" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_18" x="4160" y="272" name="inst_252E843F" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_19" x="6976" y="256" name="inst_1CCD872D" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_20" x="1056" y="432" name="inst_81CF7B1D" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_21" x="4064" y="160" name="inst_38510CE2" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_22" x="3808" y="160" name="inst_F29F6C4C" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_23" x="4272" y="176" name="inst_77153C90" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_24" x="7376" y="336" name="inst_29288A35" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_25" x="1584" y="464" name="inst_ED651399" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_26" x="4416" y="304" name="inst_05126E31" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_27" x="6736" y="224" name="inst_93350719" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_28" x="7104" y="240" name="inst_8BE43E4B" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_29" x="5920" y="224" name="inst_D7D80241" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_30" x="6496" y="96" name="inst_998EC483" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_31" x="5376" y="16" name="inst_1561F26C" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_32" x="3504" y="448" name="inst_BC81C2D4" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_33" x="4944" y="0" name="inst_C774576F" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_monster_34" x="1872" y="304" name="inst_34704A68" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_35" x="2640" y="96" name="inst_B79E1EBE" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_36" x="4224" y="48" name="inst_2C0E11CA" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_monster_37" x="6272" y="272" name="inst_D63E0EA1" locked="0" code="" scaleX="0.200000002980232" scaleY="0.200000002980232" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

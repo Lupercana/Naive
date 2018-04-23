@@ -11,6 +11,8 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_exclamation</sprite>
+    <sprite>sprites\sp_text_before</sprite>
+    <sprite>sprites\sp_text_after</sprite>
     <sprite>sprites\sp_boy_walk_before</sprite>
     <sprite>sprites\sp_boy_walk_after</sprite>
     <sprite>sprites\sp_girl_walk_before</sprite>
@@ -54,10 +56,15 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_before</background>
+    <background>background\bg_after</background>
+    <background>background\bg_credits</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_cmd_credits</object>
     <object>objects\obj_exclaim</object>
+    <object>objects\obj_text_before</object>
+    <object>objects\obj_text_after</object>
     <object>objects\obj_boy</object>
     <object>objects\obj_girl</object>
     <object>objects\obj_monster1</object>
@@ -101,6 +108,7 @@
   <rooms name="rooms">
     <room>rooms\rm_before</room>
     <room>rooms\rm_after</room>
+    <room>rooms\rm_credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
